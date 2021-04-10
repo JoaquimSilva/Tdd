@@ -19,7 +19,7 @@ class BonusServiceTest {
     public void setUp() {
         this.service = new BonusService();
         this.funcionario = new Funcionario(
-                "Washington", LocalDate.now(), new BigDecimal("25000"));
+                "Washington Creiton", LocalDate.now(), new BigDecimal("25000"));
         BigDecimal bonus = service.calcularBonus(this.funcionario);
     }
 
